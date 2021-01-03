@@ -1,0 +1,11 @@
+The Console application provides a Menu capable of unrestricted level depth (unless memory limit is reached)
+
+Specifics of Menu Construction
+	->Duplicate MenuItem identifiers are forbidden (appropriate exception is called);
+	->Certain limits for MenuItem identifiers and label are set (see in constructor summary of MenuItem Class);
+	->MenuItem identifiers are case insensitive ("xDr" is equal to "XdR");
+
+Menu navigation
+	->Type the identifier of the MenuItem you want to choose;
+	->Use Up and Down arrows on keyboard to select the MenuItem and press enter to execute (if typing while other line other than input line is selected cursor automatically moves to input line)
+		->If using arrows in direction to limit of menu list cursor moves to other end of list;
